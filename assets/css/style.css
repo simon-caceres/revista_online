@@ -26,16 +26,22 @@ body {
 
 .nav {
     display: inline-block;
-    width: 840px;
+    width: 960px;
     text-align: right;
 }
 
 
 
-.nav ul li a {
-    text-decoration: none;
-    text-transform: uppercase;
-}
+    .nav ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        
+    }
+
+    .nav ul li {
+        display: inline-block;
+        padding: 5px;
+    }
 
 .input-menu {
     border-radius: 30px;
@@ -91,6 +97,8 @@ body {
     background-color: steelblue;
     margin-right: 1px;
     color: white;
+    display: inline-block;
+   
 }
 
 .noticias-destacadas {
@@ -107,8 +115,9 @@ body {
     width: 960px;
     background-color: #f2f4f5;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 30px;
+    margin-top: 1300px;
 }
 
 .newsletter h2 {
