@@ -145,3 +145,36 @@ body {
     margin: 0 auto;
     text-align: center;
 }
+
+@media (max-width: 600px)
+{
+    .listado-izquierdo
+    {
+        display: none;
+    }
+    .menu
+    {
+        width: 90%;
+
+    }
+    .noticia
+    {
+        flex-direction: column;
+        width: 90%;
+        display: block;
+       
+    }
+
+    .contenedor, .nav, .footer, .newsletter, .noticia
+    {
+        width: 90%;
+    }
+
+    .cuerpo 
+    {
+        width: 90%;
+      
+    }
+
+    
+}
