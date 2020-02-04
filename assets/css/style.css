@@ -152,6 +152,10 @@ body {
     {
         display: none;
     }
+    .nosotros
+    {
+        display: none;
+    }
     .menu
     {
         width: 90%;
@@ -162,19 +166,27 @@ body {
         flex-direction: column;
         width: 90%;
         display: block;
-       
+       text-align: center;
     }
 
-    .contenedor, .nav, .footer, .newsletter, .noticia
+    .contenedor, .nav, .footer, .newsletter, .noticia, .contenido, .listad-noticias
     {
-        width: 90%;
+        width: 99%;
     }
-
-    .cuerpo 
-    {
-        width: 90%;
-      
-    }
-
     
+    .cuerpo img
+    {
+        width: 100%;
+    }
+   
+    footer
+    {
+        margin: 10px;
+    }
+    .newsletter
+    {
+        height: 200px;
+        margin-top: 2600px;
+        position: relative;
+    }
 }
