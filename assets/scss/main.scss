@@ -4,13 +4,11 @@
 @import 'abstract/function';
 
 @import 'base/reset';
-@import 'base/function';
+@import 'base/typography';
 
 @import 'components/buttons';
 @import 'components/carousel';
 
-@import 'layout/navigation';
-@import 'layout/grid';
 
 @import 'pages/home';
 @import 'pages/contact';
@@ -18,5 +16,8 @@
 @import 'themes/theme';
 @import 'themes/admin';
 
-@import 'vendors/boostrap';
+@import 'vendors/boostraps';
 @import 'vendors/jquery-ul';
+
+@import 'layout/navigation';
+@import 'layout/grid';
